@@ -1,0 +1,41 @@
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+body {
+    background: gray;
+}
+h1 {
+    color: blue;
+}
+.gif {
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+@media screen and (max-width: 768px) {
+  /* h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  } */
+
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  text-align: right;
+  padding: 5px;
+  margin: 5px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
